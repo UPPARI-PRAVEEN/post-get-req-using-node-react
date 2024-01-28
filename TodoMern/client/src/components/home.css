@@ -1,0 +1,38 @@
+/* Add this CSS to your styles.css or use a styling solution like styled-components */
+
+div {
+    margin: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  div > div {
+    margin-top: 20px;
+  }
+  
+  div > div > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  input[type='checkbox'] {
+    margin-right: 10px;
+  }
+  .line-through{
+    text-decoration: line-through;
+  }
+  button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c0392b;
+  }
+  
